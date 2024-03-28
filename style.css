@@ -481,7 +481,7 @@ header {
   margin-top: 50px;
 }
 
-.text-box .kiss-box {
+.text-box .ki-box {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -490,7 +490,7 @@ header {
 
 #second-kiss {
   display: flex;
-  animation: blinkShow 3s infinite;
+  /*animation: blinkShow 3s infinite;*/
   width: 40px;
   height:fit-content;
   transform: rotate(-70deg);
@@ -499,7 +499,7 @@ header {
 #first-kiss {
   width: 90px;
   transform: rotate(-70deg);
-  animation: blinkShow 2s infinite;
+  /*animation: blinkShow 2s infinite;*/
 }
 
 .sign-up-input {
