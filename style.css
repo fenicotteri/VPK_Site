@@ -115,6 +115,7 @@ header {
 
 .buttons__sign-in:hover {
   color: var(--btn-text-color);
+  text-decoration: underline;
 }
 
 .buttons__sign-up {
@@ -123,6 +124,7 @@ header {
 
 .buttons__sign-up:hover {
   color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .options {
@@ -490,18 +492,18 @@ header {
 
 #second-kiss {
   display: flex;
-  /*animation: blinkShow 3s infinite;*/
+  animation: blinkShow 3s infinite;
   width: 40px;
   height: 40px;
-  /*-webkit-transform: rotate(-70deg);*/
+  transform: rotate(-70deg);
 }
 
 #first-kiss {
   display: flex;
   width: 90px;
   height: 90px;
-  /*-webkit-transform: rotate(-70deg);*/
-  /*animation: blinkShow 2s infinite;*/
+  transform: rotate(-70deg);
+  animation: blinkShow 2s infinite;
 }
 
 .sign-up-input {
