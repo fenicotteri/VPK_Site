@@ -493,13 +493,13 @@ header {
   /*animation: blinkShow 3s infinite;*/
   width: 40px;
   height:fit-content;
-  transform: rotate(-70deg);
+  /*-webkit-transform: rotate(-70deg);*/
 }
 
 #first-kiss {
   display: flex;
   width: 90px;
-  transform: rotate(-70deg);
+  /*-webkit-transform: rotate(-70deg);*/
   /*animation: blinkShow 2s infinite;*/
 }
 
