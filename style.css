@@ -133,32 +133,32 @@ header {
   width: 30%;
   margin-top: 25px;
   margin-bottom: 20px;
-
-  .options__bar {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 70%;
-
-    .option {
-      padding: 6px 12px 6px 12px;
-      margin: 6px 0 6px 0;
-      a {
-        text-transform: uppercase;
-        color: var(--option-first-color);
-      }
-
-      p {
-        color: var(--hazy-color);
-        font-family: 'Inter';
-      }
-      h2 {
-        font-size: 35px;
-        font-family: 'Architects Daughter';
-        font-weight: bold;
-      }
-    }
+  a {
+    text-transform: uppercase;
+    color: var(--option-first-color);
   }
+
+  p {
+    color: var(--hazy-color);
+    font-family: 'Inter';
+  }
+  h2 {
+    font-size: 35px;
+    font-family: 'Architects Daughter';
+    font-weight: bold;
+  }
+}
+
+.options__bar {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 70%;
+}
+
+.options__bar .option {
+  padding: 6px 12px 6px 12px;
+  margin: 6px 0 6px 0;
 }
 
 .option__welcome {
@@ -238,23 +238,26 @@ header {
   align-items: center;
   flex-direction: column;
   height: 100%;
-  p {
-    padding: 10px 0;
-    letter-spacing: 0.5px;
-  }
-  .caption {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    margin-right: 10%;
-    p {
-      text-shadow: 0 0 5px rgba(244, 0, 248, 0.5); /* Обратная тень */
-      font-family: 'Architects Daughter';
-      font-size: 24px;
-      color: var(--option-fourth-color);
-      transform: rotate(-10deg);
-    }
-  }
+}
+
+.post-content .caption-text {
+  text-shadow: 0 0 5px rgba(244, 0, 248, 0.5); /* Обратная тень */
+  font-family: 'Architects Daughter';
+  font-size: 24px;
+  color: var(--option-fourth-color);
+  transform: rotate(-10deg);
+}
+
+.post-content .post-content-text {
+  padding: 10px 0;
+  letter-spacing: 0.5px;
+}
+
+.post-content .caption {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 10%;
 }
 
 .post-content__pin {
@@ -483,21 +486,20 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: end;
+}
 
-  #first-kiss {
-    width: 90px;
-    transform: rotate(-70deg);
-    animation: blinkShow 2s infinite;
-  }
-  
-  #second-kiss {
-    display: flex;
-    animation: blinkShow 3s infinite;
-    width: 40px;
-    height:fit-content;
-    transform: rotate(-70deg);
-  }
-  
+#second-kiss {
+  display: flex;
+  animation: blinkShow 3s infinite;
+  width: 40px;
+  height:fit-content;
+  transform: rotate(-70deg);
+}
+
+#first-kiss {
+  width: 90px;
+  transform: rotate(-70deg);
+  animation: blinkShow 2s infinite;
 }
 
 .sign-up-input {
