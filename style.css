@@ -492,13 +492,14 @@ header {
   display: flex;
   /*animation: blinkShow 3s infinite;*/
   width: 40px;
-  height:fit-content;
+  height: 40px;
   /*-webkit-transform: rotate(-70deg);*/
 }
 
 #first-kiss {
   display: flex;
   width: 90px;
+  height: 90px;
   /*-webkit-transform: rotate(-70deg);*/
   /*animation: blinkShow 2s infinite;*/
 }
